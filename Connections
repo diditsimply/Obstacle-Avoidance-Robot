@@ -1,0 +1,37 @@
+L298n motor driver:
+
++12V → Lipo battery (+)
+
+GND → Lipo battery (- ) important: connect the GND to lipo battery (-) and to arduino board any GND pin
+
++5V → arduino Vin
+
+In1 → arduino digital pin 7
+
+In2 → arduino digital pin 6
+
+In3 → arduino digital pin 5
+
+In4 → arduino digital pin 4
+
+OUT1 → Motor 1
+
+OUT2 → Motor 1
+
+OUT3 → Motor 2
+
+OUT4 → Motor 2
+
+Breadboard:
+
+Connect two jumper wires to arduino board 5V and GND pins, then connect both wires to breadboard. now you can use this as +5V supply.
+
+HC-SR04 Ultrasonic Sonar sensor:
+
+VCC → breadboard +5V
+
+Trig → arduino analog pin 1
+
+Echo → arduino analog pin 2
+
+GND → breadboard GND
